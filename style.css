@@ -10,7 +10,7 @@ html {
 
 body {
 	margin: 0;
-	background: white;
+	background: black;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
@@ -34,7 +34,7 @@ h2 {
 }
 
 header {
-  background: #41B3A3;
+  background: #18228f;
 }
 
 header::after {
@@ -54,34 +54,35 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   list-style: none;
 }
 
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 23px;
+  padding-top: 13px;
 
   position: relative;
 }
 
 nav a {
-  color: #444;
+  color: gray;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;;
 }
 
 nav a:hover {
-  color: #000;
+  color: white;
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: white;
 
   position: absolute;
   top: 0;
@@ -105,16 +106,15 @@ nav a:hover::before {
     align-items: center;
     padding: 0 20px;
     text-align: center;
-
-    background-color: teal;
 }
 
 #showcase h1 {
-    color: #7a278c;
+    color: white;
     line-height: 1.2;
     font-family: 'Roboto', sans-serif;
     font-size: 150px;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px #18228f;
+    word-break: keep-all;
 }
 
 #showcase .button {
@@ -123,6 +123,7 @@ nav a:hover::before {
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
+    color: white;
 }
 
 #showcase p{
@@ -134,4 +135,88 @@ nav a:hover::before {
 
 #showcase .button:hover {
 
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Center website */
+  .main {
+    /* max-width: 1000px; */
+    /* margin: auto; */
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  } 
+  
+  .row {
+    /* margin: 8px -16px; */
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: #18228f;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  #aboutme {
+    background-image: url('./img/jellyfish1.jpg');
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#aboutme h1 {
+    color: white;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    text-shadow: 5px 5px #18228f;
+    word-break: keep-all;
 }
