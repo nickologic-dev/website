@@ -10,6 +10,8 @@
   h3 {
     color: #18228f;
     word-break: fix-all;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
   } 
 
   h4 {
