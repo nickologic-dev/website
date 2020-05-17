@@ -43,8 +43,12 @@ p {
 .container {
 	width: 80%;
     margin: 0 auto;
-    
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  background-color: #18228f;
 }
+
 
 header {
   background: #18228f;
@@ -158,8 +162,9 @@ nav a:hover::before {
     padding-top: 20px;
 }
 
-  #aboutme {
-    background-image: url('../img/jellyfish1.png');
+  #bigheader {
+    /* background-image: url('../img/jellyfish1.png'); */
+    background-color: #18228f;
     height: 25vh;
     background-size: cover;
     background-position: center;
@@ -171,11 +176,11 @@ nav a:hover::before {
     text-align: center;
 }
 
-#aboutme h1 {
+#bigheader h1 {
     color: white;
     line-height: 1.2;
     font-family: 'Roboto', sans-serif;
     font-size: 100px;
-    text-shadow: 5px 5px #18228f;
+    text-shadow: 5px 5px #8188d6;
     word-break: keep-all;
 }
