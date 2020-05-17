@@ -42,13 +42,13 @@ p {
 
 .container {
 	width: 80%;
-    margin: 0 auto;
-    position: fixed; /* Set the navbar to fixed position */
+  margin: 0 auto;
+  position: fixed; /* Set the navbar to fixed position */
+  padding-right: 30px;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
   background-color: #18228f;
 }
-
 
 header {
   background: #18228f;
@@ -58,11 +58,6 @@ header::after {
   content: '';
   display: table;
   clear: both;
-}
-
-.logo {
-  float: left;
-  padding: 10px 0;
 }
 
 nav {
@@ -152,6 +147,10 @@ nav a:hover::before {
 
 #showcase .button:hover {
 
+}
+
+#contactme {
+  clear:both;
 }
 
 .left {
