@@ -42,7 +42,8 @@
   
   /* Content */
   .content {
-    background-color: #8188d6; 
+    /* background-color: #8188d6;  */
+    background-color: #b9bded;
     padding: 15px;
     border-radius: 20px;
   }
