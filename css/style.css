@@ -145,12 +145,12 @@ nav a:hover::before {
     padding: 10px 20px;
 }
 
-#showcase .button:hover {
-
+.social {
+  padding-top: 10px;
 }
 
-#contactme {
-  clear:both;
+.social a{
+  padding: 10px;
 }
 
 .left {
