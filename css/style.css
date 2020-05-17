@@ -15,6 +15,10 @@ body {
 	font-weight: 800;
 }
 
+.title{
+  text-align: center;
+}
+
 h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
