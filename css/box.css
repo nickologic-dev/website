@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  } 
+
+  h3 {
+    color: #18228f;
+    word-break: fix-all;
+  } 
+
+  h4 {
+    color: black;
+    word-break: fix-all;
+    font-weight: 100;
+  } 
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: #8188d6; 
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  #content .button {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
