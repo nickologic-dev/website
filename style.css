@@ -16,9 +16,11 @@ body {
 }
 
 h1 {
-    color: #41B3A3;
-    font-family: 'Raleway', sans-serif;
-    /* font-family: 'Roboto Condensed', sans-serif; */
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 5px #18228f;
+    word-break: keep-all;
+    font-size: 100px;
 }
 
 h2 {
@@ -166,6 +168,17 @@ nav a:hover::before {
   h1 {
     font-size: 50px;
     word-break: break-all;
+  } 
+
+  h3 {
+    color: #18228f;
+    word-break: fix-all;
+  } 
+
+  h4 {
+    color: black;
+    word-break: fix-all;
+    font-weight: 100;
   } 
   
   .row {
