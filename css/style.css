@@ -38,7 +38,7 @@ p {
     color: #b9bded;
     font-size: 25px;
     font-family: 'Roboto Condensed', sans-serif;
-    /* font-family: 'Raleway', sans-serif; */
+    padding: 30px;
 }
 
 .container {
@@ -148,7 +148,7 @@ nav a:hover::before {
 
 .social {
   padding-top: 20px;
-  clear: both;
+  /* clear: both; */
 }
 
 .social a{
