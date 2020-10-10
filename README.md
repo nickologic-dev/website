@@ -1,3 +1,3 @@
 # Website
 
-learn more about me at: https://nickelogic.github.io/website/
+learn more about me at: https://nickologic-dev.github.io/website/ or nickologic.com 
