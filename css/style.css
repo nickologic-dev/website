@@ -35,9 +35,10 @@ h2 {
 }
 
 p {
+    font-family: Roboto;
+    font-weight: 100;
     color: #b9bded;
     font-size: 25px;
-    font-family: 'Roboto Condensed', sans-serif;
     padding: 30px;
 }
 
@@ -124,7 +125,7 @@ nav a:hover::before {
 #showcase h1 {
     color: white;
     line-height: 1.2;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 150px;
     text-shadow: 5px 5px #18228f;
     word-break: keep-all;
@@ -144,11 +145,13 @@ nav a:hover::before {
     color: black;
     border-radius: 10px;
     padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .social {
-  padding-top: 20px;
-  /* clear: both; */
+  padding-top: -5px;
+  padding-left: 95px;
 }
 
 .social a{
@@ -157,10 +160,11 @@ nav a:hover::before {
 
 .left {
     float: left;
-    padding: 0 10px 0 0;
+    padding: 20px 30px;
 }
 .desc {
-    padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
   #bigheader {
