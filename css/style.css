@@ -224,4 +224,10 @@ nav a:hover::before {
   #showcase p{
     font-size: 3vw;
   }
+  nav li {
+    margin-left: 15px;
+  }
+  .desc {
+    font-size: 6vw;
+  }
 }

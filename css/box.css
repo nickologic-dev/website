@@ -18,6 +18,8 @@
     color: black;
     word-break: fix-all;
     font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.7px;
   } 
   
   /* Add padding BETWEEN each column (if you want) */
