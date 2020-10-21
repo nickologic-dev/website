@@ -152,7 +152,7 @@ nav a:hover::before {
     padding: 10px 3%;
     margin-top: 15px;
     margin-bottom: 30px;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .social {
@@ -211,11 +211,17 @@ nav a:hover::before {
   .about-img {
     width: 33%;
   }
+  #showcase p{
+    font-size: 3vw;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .about-img {
     width: 100%;
+  }
+  #showcase p{
+    font-size: 3vw;
   }
 }
