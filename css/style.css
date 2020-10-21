@@ -168,6 +168,10 @@ nav a:hover::before {
   padding: 10px;
 }
 
+.social a:hover {
+  filter: grayscale(100%) invert(68%) sepia(38%) saturate(559%) hue-rotate(195deg) brightness(102%) contrast(92%);
+}
+
 .left {
     float: left;
     padding: 20px 30px;
