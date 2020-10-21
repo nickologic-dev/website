@@ -155,6 +155,9 @@ nav a:hover::before {
 
 .social {
   clear: both;
+}
+
+.footer {
   padding-left: 20px;
 }
 
