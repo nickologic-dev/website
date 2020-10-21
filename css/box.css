@@ -23,13 +23,13 @@
   /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 16px;
   }
   
   /* Create four equal columns that floats next to each other */
   .column {
     float: left;
-    width: 25%;
+    width: 33%;
  } 
   
   /* Clear floats after rows */
@@ -41,9 +41,18 @@
   
   /* Content */
   .content {
-    background-color: #b9bded;
-    padding: 15px;
+    /* background-color: #8799EA; */
+    /* padding: 15px; */
     border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .hackathon-colour {
+    background-color: #a6b5f5;
+  }
+
+  .project-colour {
+    background-color: #9ed8ff;
   }
 
   #content .button {
