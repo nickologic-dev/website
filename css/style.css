@@ -162,6 +162,7 @@ nav a:hover::before {
 }
 
 .social a{
+  filter: grayscale(100%) invert(86%) sepia(11%) saturate(5393%) hue-rotate(178deg) brightness(106%) contrast(103%);
   padding: 10px;
 }
 
