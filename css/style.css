@@ -130,7 +130,8 @@ nav a:hover::before {
     color: white;
     line-height: 1.2;
     font-family: Roboto;
-    font-size: 150px;
+    /* font-size: 150px; */
+    font-size: 15vw;
     text-shadow: 5px 5px #18228f;
     word-break: keep-all;
 }
@@ -148,9 +149,10 @@ nav a:hover::before {
     background-color: #9ed8ff;
     color: black;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 3%;
     margin-top: 15px;
     margin-bottom: 30px;
+    font-size: 3vw;
 }
 
 .social {
@@ -178,7 +180,7 @@ nav a:hover::before {
   #bigheader {
     /* background-image: url('../img/jellyfish1.png'); */
     background-color: #00003E;
-    height: 25vh;
+    height: auto;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -193,7 +195,27 @@ nav a:hover::before {
     color: white;
     line-height: 1.2;
     font-family: 'Roboto', sans-serif;
-    font-size: 100px;
+    /* font-size: 100px; */
+    font-size: 10vw;
     /* text-shadow: 5px 5px black; */
     word-break: keep-all;
+    padding: 15px 0px;
+}
+
+.about-img {
+  width: 25%;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 768px) {
+  .about-img {
+    width: 33%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .about-img {
+    width: 100%;
+  }
 }
