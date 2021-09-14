@@ -235,3 +235,8 @@ nav a:hover::before {
     font-size: 6vw;
   }
 }
+
+.video {
+  width: 100%;
+  text-align: center;
+}
